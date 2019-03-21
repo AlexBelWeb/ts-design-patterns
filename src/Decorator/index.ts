@@ -1,5 +1,4 @@
 abstract class Pizza {
-  // tslint:disable-next-line: variable-name
   private _name: string;
 
   public get name(): string {
@@ -38,7 +37,6 @@ class AmericanPizza extends Pizza {
 }
 
 abstract class PizzaOptions extends Pizza {
-  // tslint:disable-next-line: variable-name
   protected _pizza: Pizza;
   constructor(name: string, pizza: Pizza) {
     super(name);
