@@ -1,0 +1,17 @@
+{
+  "name": "ts-design-patterns",
+  "version": "1.0.0",
+  "description": "My Typescript Cheatsheet",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json --format stylish"
+  },
+  "author": "Aleksandr Beloded",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.4000"
+  }
+}
