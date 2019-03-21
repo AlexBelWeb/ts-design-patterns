@@ -31,6 +31,6 @@ class Car {
   }
 
   move(): void {
-    this.movable.move();
+    this._movable.move();
   }
 }
